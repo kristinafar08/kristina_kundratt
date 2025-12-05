@@ -1,1 +1,39 @@
-/* Denna fil skall innehålla din CSS kod */
+
+#wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    "hd"
+    "nv"
+    "div1"
+    "mn1"
+    "div2"
+    ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 10% 4fr 1fr 4fr;
+    
+}
+
+#header1{
+    grid-area: hd;
+    background-color: #d9c8b0;
+}
+#nav1{
+    grid-area: nv;
+    background-color: #d9c8b0;
+}
+#bild1{
+    grid-area:div1;
+    background-color: #7b8c78;
+    background-image: url("../misc/intricate-explorer-eV180K41pFs-unsplash.jpg");
+ 
+}
+#main1{
+    grid-area: mn1;
+    background-color: #7b8c78;
+    
+}
+#bild2{
+    grid-area: div2;
+
+}

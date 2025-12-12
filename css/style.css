@@ -10,7 +10,7 @@
     "div2"
     ;
     grid-template-columns: 1fr;
-    grid-template-rows: 20% 10% 4fr 1fr 4fr;
+    grid-template-rows: 20% 10% 5fr 1fr 5fr;
     
 }
 
@@ -25,15 +25,30 @@
 #bild1{
     grid-area:div1;
     background-color: #7b8c78;
-    background-image: url("../misc/intricate-explorer-eV180K41pFs-unsplash.jpg");
- 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+
 }
 #main1{
     grid-area: mn1;
     background-color: #7b8c78;
-    
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
 }
 #bild2{
     grid-area: div2;
+
+}
+#natur1
+{    border-radius: 5px; /*Samma storlek*/
+	border-radius: 10x 10px 10px 10px; /*tl, tr, br, bl*/
+    height: 20em; 
+   w
 
 }
